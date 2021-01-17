@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9f8235a6-f308-4642-8d1e-cf4f671d4e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Interface">
+      <UniqueIdentifier>{fcda59c3-5c31-406a-ba0e-b94b69f3763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Implementation">
+      <UniqueIdentifier>{a9d8810e-6c98-424a-b522-208364918ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CallableTest">
+      <UniqueIdentifier>{48b13c90-5342-4554-a415-bf3d71504fa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IIndentedLogger.h">
+      <Filter>src\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IndentationToken.h">
+      <Filter>src\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IndentedLogger.h">
+      <Filter>src\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="IndentedLoggerTest.h">
+      <Filter>src\CallableTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IndentedLogger.cpp">
+      <Filter>src\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="IndentedLoggerTest.cpp">
+      <Filter>src\CallableTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

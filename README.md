@@ -10,8 +10,8 @@ DLL injector, as a learning project. The project is called PeToolkitV2 and is al
 # RoadMap
 The following features are to be implemented in this software (All of these feature are only going to be implemented for 64 bit unmanaged Images/Processes until I decide otherwise)
 ## Logging
-* [ ] Basic logging functionality for output on the console 
-* [ ] Logging should be capable of having different indentation levels to facilitate rudimentary "grouping" of outputs, that logically are in a hierarchy 
+* [x] Basic logging functionality for output on the console 
+* [x] Logging should be capable of having different indentation levels to facilitate rudimentary "grouping" of outputs, that logically are in a hierarchy 
 
 ## Memory Interaction
 * Basic abstraction/implementation to allow manipulation of memory (be it on disk, in ram, own process or another process or even over network)
