@@ -46,7 +46,10 @@ in order to make it viable to "live" in the remote space. Therefore the followin
 * [ ] Ability to change the addresses for imported functions defined as in the Import Address Table (IAT).
 
 ## Misc
-[ ] There also needs to be shellcode in order to call the DLL Main function, with the corrrect arguments, after the Image has been transfered to the remote process.
+- [ ] There also needs to be shellcode in order to call the DLL Main function, with the corrrect arguments, after the Image has been transfered to the remote process.
+
+## Documentation
+I will try to add/update class diagrams as i see fit. For process description I will use [BPMN with the Camunda modeler](https://camunda.com/de/bpmn/free-bpmn-2-0-tool/)
 
 # Disclaimer
 This tool is intended for research purposes on my part. I just ask the reader not to use this tool with malicious intent.
