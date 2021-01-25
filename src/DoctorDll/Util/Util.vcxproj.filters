@@ -9,5 +9,19 @@
     <ClInclude Include="Types.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="AddressUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessHelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

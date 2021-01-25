@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3e03c10a-066a-4049-b1f5-a9908e64a30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Interface">
+      <UniqueIdentifier>{010ae6ae-198a-4ed2-9061-87fb0f32941f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Implementation">
+      <UniqueIdentifier>{77c99531-2a7b-45de-b8ee-bcccba7a91cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CallableTest">
+      <UniqueIdentifier>{c09c4101-13e8-42d7-a9b1-0ca997a2088a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IMemoryManipulator.h">
+      <Filter>src\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMemoryManipulator.h">
+      <Filter>src\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemoryManipulator.h">
+      <Filter>src\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMemoryManipulatorTest.h">
+      <Filter>src\CallableTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemoryManipulatorTest.h">
+      <Filter>src\CallableTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LocalMemoryManipulator.cpp">
+      <Filter>src\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemoryManipulator.cpp">
+      <Filter>src\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalMemoryManipulatorTest.cpp">
+      <Filter>src\CallableTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemoryManipulatorTest.cpp">
+      <Filter>src\CallableTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
