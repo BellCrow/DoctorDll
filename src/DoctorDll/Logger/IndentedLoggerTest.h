@@ -1,4 +1,0 @@
-namespace Logger
-{
-	void TestLogger();
-}

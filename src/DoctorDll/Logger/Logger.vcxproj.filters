@@ -10,9 +10,6 @@
     <Filter Include="src\Implementation">
       <UniqueIdentifier>{a9d8810e-6c98-424a-b522-208364918ace}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\CallableTest">
-      <UniqueIdentifier>{48b13c90-5342-4554-a415-bf3d71504fa9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IIndentedLogger.h">
@@ -24,16 +21,10 @@
     <ClInclude Include="IndentedLogger.h">
       <Filter>src\Implementation</Filter>
     </ClInclude>
-    <ClInclude Include="IndentedLoggerTest.h">
-      <Filter>src\CallableTest</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IndentedLogger.cpp">
       <Filter>src\Implementation</Filter>
-    </ClCompile>
-    <ClCompile Include="IndentedLoggerTest.cpp">
-      <Filter>src\CallableTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

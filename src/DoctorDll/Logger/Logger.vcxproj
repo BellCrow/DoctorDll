@@ -31,14 +31,12 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="IndentedLoggerTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IndentedLogger.cpp">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="IndentedLoggerTest.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
