@@ -10,24 +10,39 @@
     <Filter Include="src\Implementation">
       <UniqueIdentifier>{77c99531-2a7b-45de-b8ee-bcccba7a91cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Implementation\BufferManipulator">
+      <UniqueIdentifier>{45b381fe-193b-46cb-ae6d-79d16c63aa51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Implementation\PrimitivesManipulator">
+      <UniqueIdentifier>{a4abd537-7a16-4782-be49-96c6a5da51e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IMemoryManipulator.h">
       <Filter>src\Interface</Filter>
     </ClInclude>
     <ClInclude Include="LocalMemoryManipulator.h">
-      <Filter>src\Implementation</Filter>
+      <Filter>src\Implementation\BufferManipulator</Filter>
     </ClInclude>
     <ClInclude Include="ProcessMemoryManipulator.h">
-      <Filter>src\Implementation</Filter>
+      <Filter>src\Implementation\BufferManipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitivesManipulator.h">
+      <Filter>src\Implementation\PrimitivesManipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrimitivesManipulator.h">
+      <Filter>src\Interface</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LocalMemoryManipulator.cpp">
-      <Filter>src\Implementation</Filter>
+      <Filter>src\Implementation\BufferManipulator</Filter>
     </ClCompile>
     <ClCompile Include="ProcessMemoryManipulator.cpp">
-      <Filter>src\Implementation</Filter>
+      <Filter>src\Implementation\BufferManipulator</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitivesManipulator.cpp">
+      <Filter>src\Implementation\PrimitivesManipulator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

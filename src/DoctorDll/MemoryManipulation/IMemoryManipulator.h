@@ -1,7 +1,6 @@
 #pragma once
 #include <vector>
 #include "Types.h"
-
 namespace MemoryManipulation {
 	
 	class IMemoryManipulator {

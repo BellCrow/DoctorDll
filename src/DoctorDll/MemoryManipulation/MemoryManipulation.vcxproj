@@ -141,10 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="IMemoryManipulator.h" />
+    <ClInclude Include="IPrimitivesManipulator.h" />
     <ClInclude Include="LocalMemoryManipulator.h">
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="PrimitivesManipulator.h" />
     <ClInclude Include="ProcessMemoryManipulator.h">
       <SubType>
       </SubType>
@@ -155,6 +157,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="PrimitivesManipulator.cpp" />
     <ClCompile Include="ProcessMemoryManipulator.cpp">
       <SubType>
       </SubType>
