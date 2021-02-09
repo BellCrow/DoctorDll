@@ -14,7 +14,9 @@ public:
 	}
 	
 	//dtor
-	virtual ~ProcessMemoryManipulator() {}
+	virtual ~ProcessMemoryManipulator() {
+		CloseHandle(_processHandle);
+	}
 	
 	//copy ctor
 	ProcessMemoryManipulator(const ProcessMemoryManipulator& other) = delete;

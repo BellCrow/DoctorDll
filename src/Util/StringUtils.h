@@ -5,7 +5,7 @@
 class StringUtil
 {
 public:
-	static std::string ToLower(const std::string& str)
+	static std::wstring ToLower(const std::wstring& str)
 	{
 		auto localStringCopy = str;
 		std::transform(localStringCopy.begin(), localStringCopy.end(), localStringCopy.begin(), [](unsigned char c) {return std::tolower(c); });

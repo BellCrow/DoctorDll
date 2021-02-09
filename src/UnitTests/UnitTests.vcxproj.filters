@@ -18,6 +18,9 @@
     <ClCompile Include="ProcessMemoryManipulationTest.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="PrimitivesManipulatorTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

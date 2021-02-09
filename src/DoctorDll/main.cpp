@@ -5,7 +5,6 @@
 #include "LocalMemoryManipulator.h"
 #include "ProcessMemoryManipulator.h"
 
-using namespace Logger;
 
 int main(int argc, char** argv)
 {
